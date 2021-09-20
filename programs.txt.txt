@@ -1,0 +1,273 @@
+PLT Programs - Level 2
+Decision Making
+1. Write a program to accept a number and display whether it is an even or odd number by using ifelse statement
+2. Write a program to accept a student’s name and scores in three subjects. Display the 1st, 2nd 
+average, and total. Display whether the student has secured 1st, 2nd, pass class, or has failed. 1st 
+class is for a score of 60 and above, 2nd class is for a score of 50 and above, while the pass class is for 
+a score of 35 and above. If the score is less than 35, then the student fails. 
+3. A vendor offers software services to a client. Each resource is billed at some dollar rate per hour. 
+The total cost of the project for the client is, therefore, the total number of hours contributed by all 
+the vendor resources * the dollar rate/hour.
+There are however some variants. 
+a. The vendor might have purchased hardware/infrastructure or software licenses needed 
+for the project.
+b. The vendor might have utilized external consultants for the project. 
+c. The client looks at the vendor as a one-stop solution and hence external resources 
+employed by the vendor need to be paid by the vendor. 
+d. It might however be possible that the vendor’s hardware and software purchases are 
+borne by the client. In this case, the client pays the vendor 30% of the 
+hardware/infrastructure costs. In the case of software licenses, the client pays the vendor 
+50% of the cost, if they are commonly available and used, or 100% if the software is 
+infrequently used or is proprietary client technology. 
+e. The external consultants employed by the vendor will come at a dollar rate per hour. 
+f. Accept the suitable inputs and display the profits/loss realized by the vendor
+Switch and While loops
+4. Write a program to generate the following series. accept N from User:
+1. 4, 16, 36, 64, … N
+2. 1, 2, 3, 4, 5, 6, ...N
+3. 1, 4, 27, 256, 3125, ...N
+5. Write a program to generate the following series. accept N from User:
+1. 1, 4, 7, 12, 23, 42, 77, … N
+2. 1, 4, 9, 25, 36, 49, 81, 100, … N
+3. 1, 5, 13, 29, 49, 77, … N
+6. Write a program to do the following:
+a. Input: 270176 (integer)
+b. Output: Two Seven Zero One Seven Six
+7. Write a program to find the reverse of a number. Store the reverse value in a different variable. 
+Display the reverse.
+8. Write a program to find the sum of all odd numbers from 1 to N. Accept N. Display the sum.
+9. Write a program to find the sum of all the prime numbers in the range n to m. Display each prime 
+number and the final sum. 
+10. Write a program to display the 1st, 2nd, and 4th multiple of 7 which gives the remainder 1 when 
+divided by 2,3,4,5 and 6
+11. Write a program to generate the following series. In all the following cases, accept N: 
+a. 1, 2, 6, 15, 31, 56 … N
+b. 1, 1, 2, 3, 5, 8, 13, … N
+12. Write a program to generate the following series. In all the following cases, accept N: 
+a. c. 1, 2, 4, 6, 7,10, 10,14… N 
+b. d. 1, 5, 8, 14, 27, 49, … N
+
+
+
+
+
+
+
+
+
+
+PLT Programs - Level 3
+
+For loops, recursion, break and continue
+
+1. Write the programs to generate the following outputs. accept N from the user
+
+a.
+
+11111   
+
+22222 
+
+33333   
+
+44444 
+
+ : 
+
+ N rows
+
+b.
+
+***** 
+
+*****   
+
+*****   
+
+*****   
+
+: 
+
+ N rows   
+
+ 2. Write the programs to generate the following outputs. accept N from the user
+
+a.
+
+12345   
+
+12345   
+
+12345   
+
+12345   
+
+: 
+
+N rows   
+
+b.
+
+* 
+
+* * 
+
+* * * 
+
+* * * *  
+
+:
+
+N rows
+
+3. Write a program to display the below pattern. accept N from the user
+
+a.
+
+              *              
+
+            **        
+
+          ***        
+
+        ****   
+
+:   
+
+N rows   
+
+b.
+
+         *
+
+      * * *
+
+   * * * * *
+
+* * * * * * *
+
+..
+
+N
+
+4.  Write a program to display the below output. accept N from the user
+
+a.
+
+1   
+
+22   
+
+333   
+
+4444   
+
+:   
+
+N  rows    
+
+b.
+
+1  
+
+12   
+
+123   
+
+1234   
+
+: 
+
+ N  rows    
+
+5.  Write a program to display the below output. accept N from the user
+
+a.
+
+1   
+
+2 3 
+
+4 5 6   
+
+7 8 9 10   
+
+:   
+
+N  rows  
+
+b.
+
+1   
+
+1 2   
+
+3 5 8   
+
+:   
+
+N rows
+
+6. Write a program with "Recursion" to find the factorial of a given number. 0! is always 1. The factorial of a negative number is not possible. (Note: Use Recursion)
+
+7. Write a program to generate the following series. In all the following cases, accept N:
+
+a. 1, 2, 6, 15, 31, 56 … N
+
+b. 1, 1, 2, 3, 5, 8, 13, … N
+
+8. Write a program to generate the following series. In all the following cases, accept N:
+
+a. c. 1, 2, 4, 6, 7,10, 10,14… N
+
+b. d. 1, 5, 8, 14, 27, 49, … N
+
+9. Write a program to find whether a given number is a Fibonacci number or not.
+
+10. Write the programs to generate the following outputs. In all the following cases, accept N:   
+
+a.
+
+  1 
+
+ ‐4    9   
+
+‐16  25  ‐36   
+
+  :   : 
+
+  N rows     
+
+b.
+
+1   
+
+1  2   
+
+6 24  120  
+
+ :   :  
+
+ N rows   
+
+11. Write a program that takes amount and displays them in words
+
+a. Input: 1234 
+
+b. Output: One thousand two hundred and thirty four only   
+
+12. Accept the item code, description, qty, and price of an item. Compute the total for the item.   
+
+a. Accept the user’s choice. If the choice is ‘y’ then accept the next set of inputs for a new item and compute the total. In this manner, compute the grand total for all the items purchased by the customer.   
+
+b. If the grand total is more than Rs. 10,000/‐ then, the customer is allowed a discount of 10%.   
+
+c. If the grand total is less than Rs. 1,000/‐ and the customer chooses to pay by card, then a surcharge of 2.5% is levied on the grand total.   
+
+d. Display the grand total for the customer in number form and in words.   
+
+Algorithms and data Structures
+
+1. Write a program to store N elements in an array of integers. Display the elements. Accept a number to be searched. Display whether the number is found or not in the array (LINEAR SEARCH).
+
+2. Write a program to store N elements in an array of integers. Display the elements. Sort the elements. Accept a number to be searched. Display whether the number is found or not in the array using BINARY SEARCH.
